@@ -93,4 +93,17 @@
 
     ![Nan](javascript_img/Nan.png)   
 * Parameter inside the isNan() function is trying to convert to Number
-    ![Nan](javascript_img/nan2.png)   
+
+    ![Nan](javascript_img/nan2.png)
+
+
+## variable hoisting
+* variable initialize in the top of the scope
+     ```
+     "use strict";
+     console.log(a);
+     var a = 1;
+     
+     #output
+     undefined
+     ```
